@@ -1,0 +1,147 @@
+:root {
+    --dark: #070505;
+    --gray: #727272;
+    --font-family: 'Roboto', sans-serif;
+    --orange: #FF7143;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    padding: 30px;
+    padding-block: 30px;
+}
+
+.header__container,
+.hero__container,
+.companies__container {
+    max-width: 1669px;
+    margin-inline: auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 49px;
+    list-style: none;
+}
+
+.header__list-link {
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+}
+
+.header__list-link:hover {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -0.47px;
+    color: var(--gray);
+    transition: color 0.3s;
+}
+
+.header__list-link.active {
+    color: var(--dark);
+    border-bottom: 2px solid var(--orange);
+    padding-bottom: 10px;
+}
+
+.header__button,
+.hero__buttons,
+.hero__button {
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.53px;
+    color: white;
+    padding: 19px 59px;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hero__button {
+    background: var(--orange);
+}
+
+.header__button:hover,
+.hero__button:hover {
+    opacity: 90%;
+}
+
+.hero {
+    padding-block: 40px;
+}
+
+.hero__container {
+    position: relative;
+}
+
+.hero__content {
+    max-width: 423px;
+    padding-block: 92px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 80px;
+    letter-spacing: -2.5px;
+    line-height: 77px;
+    color: var(--dark);
+}
+
+.hero__desc {
+    font-family: Mulish, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.63px;
+    line-height: 30px;
+    color: var(--gray);
+    margin-top: 30px;
+}
+
+.hero__buttons {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.hero__scroll {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 100px;
+}
+
+.companies {
+    padding-block: 30px;
+}
+
+.companies__list {
+    display: flex;
+}
+
+
+
+
+
+
